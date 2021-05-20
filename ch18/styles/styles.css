@@ -4,6 +4,10 @@ body {
 	color: white;
 }
 
+#video {
+  display: none;
+}
+
 #playWindow {
 	position: relative;
 	display: flex;

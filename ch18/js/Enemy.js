@@ -213,18 +213,32 @@ function setUpSequences() {
     createSequence(600,'Enemies/enemyGreen2', 1,  AttackBlocks.STREAMDOWN, 100, 1, enemySpeed.medium, 1000);
     createSequence(600,'Enemies/enemyBlack4', 1,  AttackBlocks.STREAMDOWNMIXED, 100, 1, enemySpeed.medium, 2000);
     createSequence(600,'Enemies/enemyBlue3', 1,  AttackBlocks.STREAMRETURNMIXED, 100, 1, enemySpeed.medium, 2000);
-    createSequence(600,'Enemies/enemyRed5', 1,  AttackBlocks.BADDIETYPE1, 500, 8, enemySpeed.slow, 500);
-    createSequence(600,'Enemies/enemyBlue3', 2,  AttackBlocks.STREAMUPMIXED, 100, 1, enemySpeed.fast, 7000);
-    createSequence(600,'Enemies/enemyBlack4', 1,  AttackBlocks.SIDEASSAULT1, 100, 1, enemySpeed.fast, 3000);
-    createSequence(600,'Enemies/enemyBlue3', 1,  AttackBlocks.SIDEASSAULT2, 100, 1, enemySpeed.fast, 3000);
-    createSequence(600,'Enemies/enemyGreen2', 2,  AttackBlocks.SIDEASSAULT3, 100, 1, enemySpeed.fast, 2000);
-    createSequence(600,'Enemies/enemyRed1', 2,  AttackBlocks.SIDEASSAULT4, 100, 1, enemySpeed.fast, 2000);
-    createSequence(600,'Enemies/enemyBlue3', 4,  AttackBlocks.SIDEASSAULT2, 100, 1, enemySpeed.medium, 2000);
-    createSequence(600,'Enemies/enemyGreen2', 4,  AttackBlocks.SIDEASSAULT3, 100, 1, enemySpeed.medium, 2000);
-    createSequence(600,'Enemies/enemyRed5', 1,  AttackBlocks.BADDIETYPE2, 500, 8, enemySpeed.slow, 500);
-    createSequence(600,'Enemies/enemyGreen2', 2,  AttackBlocks.STREAMDOWN, 100, 1, enemySpeed.fast, 2000);
-    createSequence(600,'Enemies/enemyBlack4', 2,  AttackBlocks.STREAMDOWNMIXED, 100, 1, enemySpeed.fast, 2000);
-    createSequence(600,'Enemies/enemyBlue3', 4,  AttackBlocks.STREAMRETURNMIXED, 100, 1, enemySpeed.medium, 2000);
+    // createSequence(600,'Enemies/enemyRed5', 1,  AttackBlocks.BADDIETYPE1, 500, 8, enemySpeed.slow, 500);
+    // createSequence(600,'Enemies/enemyBlue3', 2,  AttackBlocks.STREAMUPMIXED, 100, 1, enemySpeed.fast, 7000);
+    // createSequence(600,'Enemies/enemyBlack4', 1,  AttackBlocks.SIDEASSAULT1, 100, 1, enemySpeed.fast, 3000);
+    // createSequence(600,'Enemies/enemyBlue3', 1,  AttackBlocks.SIDEASSAULT2, 100, 1, enemySpeed.fast, 3000);
+    // createSequence(600,'Enemies/enemyGreen2', 2,  AttackBlocks.SIDEASSAULT3, 100, 1, enemySpeed.fast, 2000);
+    // createSequence(600,'Enemies/enemyRed1', 2,  AttackBlocks.SIDEASSAULT4, 100, 1, enemySpeed.fast, 2000);
+    // createSequence(600,'Enemies/enemyBlue3', 4,  AttackBlocks.SIDEASSAULT2, 100, 1, enemySpeed.medium, 2000);
+    // createSequence(600,'Enemies/enemyGreen2', 4,  AttackBlocks.SIDEASSAULT3, 100, 1, enemySpeed.medium, 2000);
+    // createSequence(600,'Enemies/enemyRed5', 1,  AttackBlocks.BADDIETYPE2, 500, 8, enemySpeed.slow, 500);
+    createSequence(600,'Enemies/enemyGreen2', 2,  AttackBlocks.STREAMDOWN, 100, 1, enemySpeed.medium, 2000);
+    createSequence(600,'Enemies/enemyBlack4', 2,  AttackBlocks.STREAMDOWNMIXED, 100, 1, enemySpeed.medium, 2000);
+
+    createSequence(600,'Enemies/enemyGreen2', 1,  AttackBlocks.STREAMDOWN, 100, 1, enemySpeed.medium, 1000);
+    createSequence(600,'Enemies/enemyBlack4', 1,  AttackBlocks.STREAMDOWNMIXED, 100, 1, enemySpeed.medium, 2000);
+    createSequence(600,'Enemies/enemyBlue3', 1,  AttackBlocks.STREAMRETURNMIXED, 100, 1, enemySpeed.medium, 2000);
+    createSequence(600,'Enemies/enemyGreen2', 2,  AttackBlocks.STREAMDOWN, 100, 1, enemySpeed.medium, 2000);
+    createSequence(600,'Enemies/enemyBlack4', 2,  AttackBlocks.STREAMDOWNMIXED, 100, 1, enemySpeed.medium, 2000);
+
+    createSequence(600,'Enemies/enemyGreen2', 1,  AttackBlocks.STREAMDOWN, 100, 1, enemySpeed.medium, 1000);
+    createSequence(600,'Enemies/enemyBlack4', 1,  AttackBlocks.STREAMDOWNMIXED, 100, 1, enemySpeed.medium, 2000);
+    createSequence(600,'Enemies/enemyBlue3', 1,  AttackBlocks.STREAMRETURNMIXED, 100, 1, enemySpeed.medium, 2000);
+    createSequence(600,'Enemies/enemyGreen2', 2,  AttackBlocks.STREAMDOWN, 100, 1, enemySpeed.medium, 2000);
+    createSequence(600,'Enemies/enemyBlack4', 2,  AttackBlocks.STREAMDOWNMIXED, 100, 1, enemySpeed.medium, 2000);
+        
+
+    // createSequence(600,'Enemies/enemyBlue3', 4,  AttackBlocks.STREAMRETURNMIXED, 100, 1, enemySpeed.medium, 2000);
     console.log("EnemySequences:" , EnemySequences);
 
 }

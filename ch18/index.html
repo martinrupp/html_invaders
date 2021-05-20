@@ -17,9 +17,22 @@
                 <div class="score" id="divFPS">FPS: 0</div>
             </div>
             <div id="messageContainer">
-            </div>
+            </div>            
         </div>
+        <canvas id="canvas2" width=640 height=480></canvas>
     </div>
+
+
+    <video id="video" playsinline></video>
+    <button id="access">Access Camera</button>
+    <!-- <canvas id="canvas"></canvas> -->
+    
+    <label id="posXlabel">test</label>
+
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+
+    <script src='https://webrtc.github.io/adapter/adapter-latest.js'></script>
+    <script src='https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js'></script>
 
     <script src="js/jquery331.min.js"></script>
     <script src="js/defs.js"></script>
@@ -35,6 +48,8 @@
     <script src="js/Enemy.js"></script>
     <script src="js/Player.js"></script>
     <script src="js/main.js"></script>
+
+    <script src="js/camera2.js"></script>
 
 </body>
 

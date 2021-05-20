@@ -77,6 +77,7 @@ class Player extends Sprite {
         }
 
         this.incrementPosition(xStep, yStep);
+        console.log(this.position.x, this.position.y)
     }
 
     incrementScore (amount) {
